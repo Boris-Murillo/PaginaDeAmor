@@ -6,10 +6,12 @@
 
 html{
     font-size: 62.5%;
+    
 }
 
 body{
     font-size: 1.6rem;
+    
 }
 
 .container{
@@ -17,16 +19,26 @@ body{
     flex-wrap: wrap; 
 }
 
+.titulo{
+    font-family: 'Berkshire Swash', cursiva;
+}
+
 footer{
     margin: 0 auto;
     text-align: center;
+    font-family: 'Berkshire Swash', cursiva;
 }
 
-.c1 , .c2 , .c3 , .c4 , .c5 {
+.c1 , .c2 , .c3 , .c4 , .c5, .c6 {
     width: 100%;
     min-width: 150px;
-    height: 350px;
+    height: 17%;
     
+}
+
+p{
+    font-family: 'Dancing Script', cursive;
+    padding: 1rem;
 }
 
 img{
@@ -40,26 +52,31 @@ h1{
 }
 
 h2{
+    margin: 1rem;
     text-align: center;
 }
 
-
 .c1{
-    background-color: aqua;    
+    background-color: #ED9372;    
 }
 
 .c2{
-    background-color: rosybrown;    
+    background-color: #F891FA;    
 }
 
 .c3{
-    background-color: palegreen;    
+    background-color: #76E0DA;    
 }
 
 .c4{
-    background-color: rgb(204, 33, 85);    
+    background-color: #E2F777;    
 }
 
 .c5{
-    background-color: olive;    
+    background-color: #EDA572;    
+}
+
+.c6{
+    background-color: #e5ecec; 
+    color: #1f2020;  
 }
