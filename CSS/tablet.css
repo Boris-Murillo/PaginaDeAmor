@@ -1,10 +1,10 @@
 .c1{
-    width: 25%;
+    width: 50%;
     order: 1;
 }
 
 .c2{
-    width: 75%;
+    width: 50%;
     order: 2;
 }
 
@@ -23,3 +23,7 @@
     order: 5;
 }
 
+span{
+    display: block;
+    margin: 0 auto;
+}
