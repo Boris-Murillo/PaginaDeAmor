@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.c1 , .c2 , .c3 , .c4 , .c5 {
+    width: 100%;
+    min-width: 150px;
+    height: 350px;
+    
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+
+.c1{
+    background-color: aqua;    
+}
+
+.c2{
+    background-color: rosybrown;    
+}
+
+.c3{
+    background-color: palegreen;    
+}
+
+.c4{
+    background-color: rgb(204, 33, 85);    
+}
+
+.c5{
+    background-color: olive;    
+}
