@@ -6,22 +6,31 @@
 
 html{
     font-size: 62.5%;
-    
+}
+
+html h1 {
+    font-family: 'Redressed', cursive;
 }
 
 body{
     font-size: 1.6rem;
-    
 }
 
 .container{
-    display: flex;
-    flex-wrap: wrap; 
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-areas: 
+        "foto1 "
+        "foto2 "
+        "foto3 "
+        "foto4 "
+        "foto5"
+        "texto";
+    grid-gap: 0.2rem;
 }
 
-.titulo{
-    font-family: 'Berkshire Swash', cursiva;
-}
 
 footer{
     margin: 0 auto;
@@ -29,11 +38,23 @@ footer{
     font-family: 'Berkshire Swash', cursiva;
 }
 
-.c1 , .c2 , .c3 , .c4 , .c5, .c6 {
-    width: 100%;
-    min-width: 150px;
-    height: 17%;
-    
+.c1 {
+    grid-area: foto1;
+} 
+.c2{
+    grid-area: foto2;
+}  
+.c3{
+    grid-area: foto3;
+} 
+.c4{
+    grid-area: foto4;
+} 
+.c5{
+    grid-area: foto5;
+} 
+.c6 {  
+    grid-area: texto;
 }
 
 p{
