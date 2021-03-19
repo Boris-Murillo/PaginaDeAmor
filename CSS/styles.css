@@ -63,6 +63,8 @@ p{
 }
 
 .c6 p{
+    padding-left: 4rem;
+    padding-right: 2rem;
     padding-top: 50%;
     padding-bottom: 50%;
 }
